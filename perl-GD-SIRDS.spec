@@ -31,7 +31,7 @@ GD::Image jako wej¶cia i wyj¶cia.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
