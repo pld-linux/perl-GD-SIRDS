@@ -5,7 +5,7 @@ Summary:	GD::SIRDS Perl module - creates Single Image Random Dot Stereograms
 Summary(pl):	Modu³ Perla GD::SIRDS - do tworzenia jednoobrazowych stereogramów
 Name:		perl-GD-SIRDS
 Version:	0.02
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
