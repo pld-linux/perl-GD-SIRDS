@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	GD
-%define	pnam	SIRDS
+%define		pdir	GD
+%define		pnam	SIRDS
 Summary:	GD::SIRDS Perl module - creates Single Image Random Dot Stereograms
 Summary(pl):	Modu³ Perla GD::SIRDS - do tworzenia jednoobrazowych stereogramów
 Name:		perl-GD-SIRDS
