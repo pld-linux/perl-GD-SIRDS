@@ -2,7 +2,7 @@
 %define		pdir	GD
 %define		pnam	SIRDS
 Summary:	GD::SIRDS Perl module - creates Single Image Random Dot Stereograms
-Summary(pl):	Modu≥ Perla GD::SIRDS - do tworzenia jednoobrazowych stereogramÛw
+Summary(pl.UTF-8):   Modu≈Ç Perla GD::SIRDS - do tworzenia jednoobrazowych stereogram√≥w
 Name:		perl-GD-SIRDS
 Version:	0.02
 Release:	3
@@ -22,10 +22,10 @@ GD::SIRDS module creates Single Image Random Dot Stereograms from a
 source image or depth map. Uses GD::Image objects as its input and
 output.
 
-%description -l pl
-Modu≥ GD::SIRDS tworzy jednoobrazowe stereogramy z losowych kropek
-na podstawie obrazu ºrÛd≥owego lub mapy g≥Íboko∂ci. Uøywa obiektÛw
-GD::Image jako wej∂cia i wyj∂cia.
+%description -l pl.UTF-8
+Modu≈Ç GD::SIRDS tworzy jednoobrazowe stereogramy z losowych kropek
+na podstawie obrazu ≈∫r√≥d≈Çowego lub mapy g≈Çƒôboko≈õci. U≈ºywa obiekt√≥w
+GD::Image jako wej≈õcia i wyj≈õcia.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
