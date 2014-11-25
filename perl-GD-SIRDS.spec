@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	GD
 %define		pnam	SIRDS
+%include	/usr/lib/rpm/macros.perl
 Summary:	GD::SIRDS Perl module - creates Single Image Random Dot Stereograms
 Summary(pl.UTF-8):	Moduł Perla GD::SIRDS - do tworzenia jednoobrazowych stereogramów
 Name:		perl-GD-SIRDS
@@ -11,8 +11,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0a7970cd1b66099e5584be972d8fb75f
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/GD-SIRDS/
 BuildRequires:	perl-GD
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -23,8 +24,8 @@ source image or depth map. Uses GD::Image objects as its input and
 output.
 
 %description -l pl.UTF-8
-Moduł GD::SIRDS tworzy jednoobrazowe stereogramy z losowych kropek
-na podstawie obrazu źródłowego lub mapy głębokości. Używa obiektów
+Moduł GD::SIRDS tworzy jednoobrazowe stereogramy z losowych kropek na
+podstawie obrazu źródłowego lub mapy głębokości. Używa obiektów
 GD::Image jako wejścia i wyjścia.
 
 %prep
